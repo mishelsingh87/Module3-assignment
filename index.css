@@ -1,0 +1,36 @@
+body{
+    font-size: 1em;
+}
+
+.visible-xs{
+    display: none;
+}
+
+h1{
+    text-align: center;
+}
+
+.menu-tab{
+    background-color: grey;
+    padding: 10px;
+}
+
+.tab-title{
+    text-align: center;
+    font-weight: bold;
+}
+
+/* Mobile View */
+@media (max-width: 767px){
+    .visible-xs{
+        display: inline;
+    }
+
+    .menu-tab{
+        margin-top: 20px;
+    }
+
+    ul{
+        text-align: center;
+    }
+}
